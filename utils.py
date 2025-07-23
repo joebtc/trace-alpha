@@ -1,6 +1,6 @@
 import os, requests
 
-RPC_URL = os.getenv("RPC_URL")  # e.g. https://mainnet.infura.io/v3/XYZ
+RPC_URL = os.getenv("RPC_URL")
 
 def fetch_transactions(address, start_block=0, end_block="latest"):
     payload = {
