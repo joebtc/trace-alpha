@@ -3,3 +3,4 @@ requests
 networkx
 matplotlib
 python-telegram-bot==20.3
+scipy
